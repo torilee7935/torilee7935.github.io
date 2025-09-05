@@ -57,10 +57,14 @@ export function Hero() {
             <div className={`relative p-[3px] ${theme.radii.xl} bg-gradient-to-br from-sky-400/60 via-blue-500/60 to-cyan-300/60 ${theme.shadow.soft}`}>
               <div className={`${theme.radii.xl} overflow-hidden ${theme.colors.surface} border border-slate-800/60`}
                     style={{ aspectRatio: "4 / 5" }}>
-                {/* Replace with your photo */}
-                <div className="h-full w-full grid place-items-center text-slate-400">
-                  <span className="text-sm">Your Photo Here</span>
-                </div>
+                <img
+                  src={PROFILE.photoUrl}
+                  alt={PROFILE.name}
+                  className="h-full w-full object-cover"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
+                />
               </div>
             </div>
           </motion.div>
