@@ -33,7 +33,7 @@ export function Contact() {
       <Container>
         <div className="mb-8">
           <h2 className="text-2xl md:text-3xl font-semibold text-slate-100">Contact</h2>
-          <p className="text-slate-400 mt-2">Shoot a note and I’ll get back soon. The form validates on the client; connect a service to actually send.</p>
+          <p className="text-slate-400 mt-2">Email me and I’ll get back soon</p>
         </div>
 
         <div className={`grid gap-6 md:grid-cols-3`}>
@@ -57,15 +57,12 @@ export function Contact() {
           </form>
 
           <div className={`p-6 ${theme.radii.xl} ${theme.colors.surface} border border-slate-800/60 ${theme.shadow.soft} space-y-4`}>
-            <p className="text-slate-300">Prefer socials?</p>
+            <p className="text-slate-300">Follow me</p>
             <div className="flex gap-3">
               <a aria-label="GitHub" href="https://github.com/torilee7935" target="_blank" rel="noreferrer" className="p-2 border border-slate-800/60 ${theme.radii.full}"><Github className="w-5 h-5 text-slate-300"/></a>
               <a aria-label="LinkedIn" href="https://www.linkedin.com/in/torielizabethlee" target="_blank" rel="noreferrer" className="p-2 border border-slate-800/60 ${theme.radii.full}"><Linkedin className="w-5 h-5 text-slate-300"/></a>
               <a aria-label="Email" href="mailto:torilee7935@gmail.com" className="p-2 border border-slate-800/60 ${theme.radii.full}"><Mail className="w-5 h-5 text-slate-300"/></a>
             </div>
-            <p className="text-sm text-slate-500">
-              Update these links to your real profiles. The email icon can scroll to the form or open your mailto link.
-            </p>
           </div>
         </div>
       </Container>

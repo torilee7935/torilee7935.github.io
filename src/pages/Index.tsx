@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar"
 import { Hero } from "@/components/Hero"
+import { Background } from "@/components/Background";
 import { Projects } from "@/components/Projects"
 import { Contact } from "@/components/Contact"
 import { Footer } from "@/components/Footer"
@@ -8,7 +9,7 @@ import React from "react"
 
 export default function IndexPage() {
   return (
-    <div className={`min-h-screen bg-gradient-to-b ${theme.colors.bg}`} style={{ color: theme.colors.text }}>
+    <div className={`min-h-screen bg-gradient-to-b ${theme.colors.bg} ${theme.colors.text.primary}`}>
       {/* Subtle starry background dots */}
       <div className="pointer-events-none fixed inset-0 opacity-[0.08]" style={{
         backgroundImage:
@@ -21,6 +22,7 @@ export default function IndexPage() {
 
       <Navbar/>
       <Hero/>
+      <Background /> 
       <Projects/>
       <Contact/>
       <Footer/>

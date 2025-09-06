@@ -2,12 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Page gradient background helper (optional) */
-:root {
-  color-scheme: dark;
-}
+/* --- Global tweaks --- */
 
 /* Smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
+}
+
+/* Page color scheme hint */
+:root {
+  color-scheme: light;
+}
+
+/* --- Typography presets --- */
+@layer base {
+  /* Body defaults */
+  html, body {
+    @apply font-sans text-brand-ink;
+  }
+
+  /* Elegant headings use Fraunces */
+  h1, h2, h3 {
+    @apply font-display tracking-tight;
+  }
+
+  /* Polished sizes/line-heights */
+  h1 { @apply text-4xl md:text-5xl leading-tight; }
+  h2 { @apply text-2xl md:text-3xl leading-snug; }
+  h3 { @apply text-xl md:text-2xl leading-snug; }
+  p  { @apply leading-8; }
 }
