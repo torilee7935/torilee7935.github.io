@@ -1,10 +1,18 @@
+export type Project = {
+  title: string
+  description: string
+  link: string
+  stack?: ReadonlyArray<string>
+  imageUrl?: string
+}
+
 export const projectsData = [
   {
-    title: "News Website (Hacker News Aggregator)",
+    title: "Hacker News Website",
     stack: ["Python", "Flask", "Auth0", "SQL", "NGINX", "Gunicorn"],
-    description:
-      "Interactive news app with auth, profiles, and admin panel. Deployed with NGINX + Gunicorn; stores user prefs & interactions in SQL.",
-    link: "https://example.com/news-app",
+    description: "News website powered by the Hacker News API. Secure Auth0 sign-in lets users like/dislike stories, while an admin panel supports editing and deleting posts.",
+    link: "https://github.com/torilee7935/python",
+    imageUrl: "/images/newsApp.png",
   },
   {
     title: ".NET MAUI Canvas Model",
@@ -27,4 +35,4 @@ export const projectsData = [
       "Bidirectional sync prototype for comments, attachments, and status across systems.",
     link: "https://example.com/zendesk-halo-sync",
   },
-] as const
+] satisfies ReadonlyArray<Project>

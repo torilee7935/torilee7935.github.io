@@ -1,7 +1,7 @@
 export const PROFILE = {
   name: "Tori Lee",
-  headline: "Technical Account Manager • Computer Science Graduate",
+  headline: "Technical Account Manager",
   intro:
-    "TAM at Kinetix Solutions. I customize Halo PSA, design helpful automations, and build clean tooling that reduces support load and delights users.",
+    "Hi, I’m Tori. I’m passionate about making technology easy to understand and accessible to everyone. With a background in computer science and account management, I bridge technical details with real human needs - helping teams learn and get the most out of their tools.",
   photoUrl: "/images/profilePic.jpeg",
   }

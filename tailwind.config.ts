@@ -17,6 +17,7 @@ const config: Config = {
           sage400: "#9FBEA7",
           sage500: "#7CA787",
           sage600: "#5F8E6D",
+          sage700: "#2a4b36ff",
           // Sky
           sky50:  "#F3FAFF",
           sky100: "#E6F4FE",

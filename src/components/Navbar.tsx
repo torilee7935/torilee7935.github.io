@@ -59,12 +59,12 @@ export function Navbar() {
             </button>
 
             {/* Desktop nav */}
-            <nav className="hidden md:flex gap-6">
+            <nav className="hidden md:flex flex-1 justify-center gap-6">
               {navItems.map((n) => (
                 <a
                   key={n.href}
                   href={n.href}
-                  className="text-sm text-brand-slate hover:text-brand-ink hover:underline underline-offset-4 transition-colors"
+                  className="text-sm text-brand-slate hover:text-brand-ink hover:font-semibold transition-colors"
                 >
                   {n.label}
                 </a>

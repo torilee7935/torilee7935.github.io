@@ -35,7 +35,9 @@ export function Hero() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
-              Hi, I’m Tori. I’m passionate about making technology easy to understand and accessible to everyone. With a background in computer science and account management, I bridge technical details with real human needs - helping teams learn, optimize, and get the most out of their tools.
+              Hi, I’m Tori. I’m passionate about making technology easy to understand and accessible to everyone.
+              With a background in computer science and account management, I bridge technical details with real
+              human needs — helping teams learn and get the most out of their tools.
             </motion.p>
 
             {/* Social links */}
@@ -80,13 +82,10 @@ export function Hero() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <div
-              className={`relative p-[3px] ${theme.radii.xl} bg-gradient-to-br from-brand-sky200 via-brand-sage200 to-white ${theme.shadow.soft}`}
-            >
-              <div
-                className={`${theme.radii.xl} overflow-hidden ${theme.colors.surface} border ${theme.colors.border}`}
-                style={{ aspectRatio: "4 / 5" }}
-              >
+            {/* subtle frame (no gradient) */}
+            <div className="w-fit p-[3px] rounded-2xl bg-transparent ring-1 ring-black/5">
+              {/* the only visible border */}
+              <div className="rounded-2xl overflow-hidden bg-white border-[5px] border-brand-sage700 aspect-[4/5] w-[clamp(220px,28vw,360px)]">
                 <img
                   src={PROFILE.photoUrl}
                   alt={PROFILE.name}
