@@ -15,24 +15,48 @@ export const projectsData = [
     imageUrl: "/images/newsApp.png",
   },
   {
+    title: "Pixel Pummel",
+    stack: ["Python", "Pygame", "Object-Oriented Programming", "Event Handling", "Game Design", "Sprite Animation"],
+    description:
+      "An arcade-style 8-bit street fighting game built with Pygame. Players control unique fighters with custom move sets, testing reflexes and strategy against opponents. Designed retro-style graphics, implemented collision detection, health bars, and game loop mechanics to deliver a nostalgic but polished gameplay experience.",
+    link: "https://github.com/torilee7935/G7CapProj",
+    imageUrl: "/images/pixelPummel.png",
+  },
+  {
+    title: "Elevator Kernel Module",
+    stack: [
+      "C",
+      "Linux Kernel Development",
+      "Operating Systems",
+      "System Calls",
+      "Multithreading",
+      "Synchronization",
+      "Scheduling Algorithms"
+    ],
+    description:
+      "A low-level systems project exploring Linux kernel programming. Implemented system-call tracing, a timer kernel module, and an elevator scheduling module using threads, mutexes, and linked lists. Gained hands-on experience in system calls, kernel modules, concurrency control, and custom scheduling algorithms.",
+    link: "https://github.com/torilee7935/ElevatorKernel",
+  },
+
+  {
     title: ".NET MAUI Canvas Model",
-    stack: ["C#", ".NET MAUI", "Cross‑platform"],
+    stack: ["C#", ".NET MAUI", "Cross-platform", "UI/UX"],
     description:
-      "Student/class management demo: enroll, add files, manage profiles with a clean, accessible UI.",
-    link: "https://example.com/canvas-model",
+      "A cross-platform class management application inspired by Canvas. Built with .NET MAUI, it allows instructors to create classes, upload assignments, and manage student profiles, while students can enroll, access course materials, and track progress.",
+    link: "https://github.com/torilee7935/CSharp",
   },
   {
-    title: "Azure Blob → HaloPSA KB Auto‑Sync",
-    stack: ["Azure", "Logic Apps", "HaloPSA", "APIs"],
+    title: "Chess",
+    stack: [ 
+      "Java",   
+      "Swing (GUI Development)",
+      "Object-Oriented Programming",
+      "Algorithm Design",
+      "Game State Management",
+      "User Input Validation",
+    ],
     description:
-      "Automation that creates/updates HaloPSA KB articles when docs land in Blob Storage.",
-    link: "https://example.com/halo-kb-sync",
-  },
-  {
-    title: "Zendesk ↔ HaloPSA Ticket Sync",
-    stack: ["Node.js", "Webhooks", "REST"],
-    description:
-      "Bidirectional sync prototype for comments, attachments, and status across systems.",
-    link: "https://example.com/zendesk-halo-sync",
+      "A full chess game built in Java with GUI support. Implements all standard chess rules, including legal moves, captures, check, and checkmate. Features castling, pawn promotion, and invalid move validation with pop-up alerts, plus a user-friendly interface for selecting and moving pieces.",
+    link: "https://github.com/torilee7935/JavaHWX",
   },
 ] satisfies ReadonlyArray<Project>
