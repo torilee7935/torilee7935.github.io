@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin} from "lucide-react"
 import { motion } from "framer-motion"
 import { PROFILE } from "@/data/profile"
 import { theme } from "@/theme"
@@ -51,28 +51,55 @@ export function Hero() {
                 aria-label="GitHub"
                 href="https://github.com/torilee7935"
                 target="_blank"
-                rel="noreferrer"
-                className={`p-2 border ${theme.colors.border} hover:bg-brand-sage50 ${theme.radii.full} ${theme.shadow.soft} ${theme.colors.surface} transition`}
+                rel="noopener noreferrer"
+                className={[
+                  "inline-flex h-9 w-9 items-center justify-center",   // uniform circle
+                  "border", theme.colors.border,
+                  theme.radii.full, theme.shadow.soft, theme.colors.surface,
+                  "transition hover:bg-brand-sage50",
+                  "no-underline decoration-transparent leading-none"    // no stray underline/baseline
+                ].join(" ")}
               >
                 <Github className="w-5 h-5 text-brand-sage600" />
               </a>
+
               <a
                 aria-label="LinkedIn"
                 href="https://www.linkedin.com/in/torielizabethlee"
                 target="_blank"
-                rel="noreferrer"
-                className={`p-2 border ${theme.colors.border} hover:bg-brand-sage50 ${theme.radii.full} ${theme.shadow.soft} ${theme.colors.surface} transition`}
+                rel="noopener noreferrer"
+                className={[
+                  "inline-flex h-9 w-9 items-center justify-center",
+                  "border", theme.colors.border,
+                  theme.radii.full, theme.shadow.soft, theme.colors.surface,
+                  "transition hover:bg-brand-sage50",
+                  "no-underline decoration-transparent leading-none"
+                ].join(" ")}
               >
                 <Linkedin className="w-5 h-5 text-brand-sage600" />
               </a>
+
+              {/* CV download circle */}
               <a
-                aria-label="Email"
-                href="#contact"
-                className={`p-2 border ${theme.colors.border} hover:bg-brand-sage50 ${theme.radii.full} ${theme.shadow.soft} ${theme.colors.surface} transition`}
+                aria-label="Download CV (PDF)"
+                href="/cv/ToriLeeResume.pdf"
+                download="Tori_Lee_CV.pdf"
+                title="Download CV"
+                className={[
+                  "inline-flex h-9 w-9 items-center justify-center",
+                  "border", theme.colors.border,
+                  theme.radii.full, theme.shadow.soft, theme.colors.surface,
+                  "transition hover:bg-brand-sage50",
+                  "no-underline decoration-transparent leading-none"
+                ].join(" ")}
               >
-                <Mail className="w-5 h-5 text-brand-sage600" />
+                <span className="font-bold text-brand-sage600 text-[11px]">
+                  CV
+                </span>
               </a>
             </motion.div>
+
+
           </div>
 
           {/* Profile Photo */}

@@ -149,7 +149,6 @@ export function Projects() {
       <Container>
         <div className="mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-ink">Projects</h2>
-          <p className="mt-2 text-brand-slate">A few things I’ve built and shipped.</p>
         </div>
 
         <div className="columns-1 sm:columns-2 gap-5 [column-fill:_balance]">

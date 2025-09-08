@@ -12,11 +12,10 @@ export const EXPERIENCES: Experience[] = [
     company: "Kinetix Solutions",
     dates: "May 2025 – Present",
     bullets: [
-      "Main point of contact for clients; manage IT support needs and satisfaction.",
-      "Customize and maintain Halo PSA (roles, permissions, KB structure, workflow automation).",
-      "Develop and integrate AI chatbot with Halo API + Azure to streamline support and reduce tickets.",
-      "Create internal docs and training to improve onboarding and efficiency.",
-      "Identify automation opportunities from support trends and user behavior."
+      "• Serve as a liaison for clients, ensuring smooth IT support delivery and strong relationships",
+      "• Create documentation and lead training to speed up onboarding and improve team efficiency",
+      "• Configure and refine Halo PSA — roles, permissions, knowledge base, and workflows — to boost performance across client environments",
+      "• Analyze support trends to uncover automation opportunities and implement solutions that streamline operations"
     ]
   },
   {
@@ -24,31 +23,32 @@ export const EXPERIENCES: Experience[] = [
     company: "Florida State University International Programs · Valencia, Spain",
     dates: "Sep 2024 – Dec 2024",
     bullets: [
-      "Mentored and supported students during cultural immersion in Valencia.",
-      "Coordinated large group trips; kept clear comms with students and staff.",
-      "Streamlined operations by organizing schedules and delivering announcements.",
-      "Primary contact for student concerns; fostered a supportive environment."
+      "• Mentored and supported students during cultural immersion in Valencia",
+      "• Assisted in coordination of large group trips maintaining clear communication with students and staff",
+      "• Streamlined operations by organizing schedules and delivering announcements",
+      "• Primary contact for student concerns while fostering a supportive inclusive environment"
     ]
   },
   {
-    title: "Intern",
+    title: "DevOps Intern",
     company: "Siemens Med-Lab",
     dates: "Jul 2023 – Aug 2023",
     bullets: [
-      "Collaborated with DevOps and learned SDLC practices.",
-      "Participated in daily Scrum, sprint planning, retros, and stand-ups.",
-      "Performed QA testing to ensure reliability and efficiency.",
-      "Wrote/ran test cases and reported findings to dev teams."
+      "• Collaborated closely with the DevOps team to understand and assist in the software development lifecycle",
+      "• Participated in daily Scrum meetings, contributing to sprint planning, retrospectives, and stand-ups, gaining valuable insights into Agile methodologies",
+      "• Engaged in quality assurance testing, ensuring the reliability and efficiency of software products",
+      "• Assisted in the development and execution of test cases and reported findings to the development team for improvements"
     ]
   },
   {
-    title: "Manager",
+    title: "Manager / Bartender",
     company: "Red Ginger Asian Bistro Restaurant",
-    dates: "Aug 2019 – May 2025 (Intermittent)",
+    dates: "August 2019 – May 2025 (Intermittent)",
     bullets: [
-      "Worked with GM to implement policy and hit business goals.",
-      "Oversaw staff performance; trained team and enforced procedures.",
-      "Handled customer inquiries and escalations to ensure great experience."
+      "• Supported the General Manager in implementing policies and achieving business goals",
+      "• Oversaw staff performance, provided training, and ensured adherence to restaurant standards",
+      "• Handled customer inquiries and complaints with professionalism, fostering strong guest relationships",
+      "• Delivered high-quality service as a bartender, creating a welcoming and memorable dining experience"
     ]
   }
 ];
@@ -56,5 +56,7 @@ export const EXPERIENCES: Experience[] = [
 export const EDUCATION = {
   degree: "B.A. in Computer Science",
   org: "Florida State University",
-  extra: "Mentor, Women in Computer Science",
+  extra: [
+    "Mentor, Women in Computer Science",
+  ]
 };
