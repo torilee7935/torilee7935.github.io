@@ -27,3 +27,9 @@ pnpm-debug.log*
 # system files
 .DS_Store
 Thumbs.db
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Vite generated type declarations
+/vite.config.d.ts
