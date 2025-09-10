@@ -19,13 +19,13 @@ Welcome to my personal portfolio site, where I showcase my work and highlight pr
 
 ## Structure
 
-public/             # static assets (images, etc.)  
-src/                # React components, pages, styles  
-index.html          # Vite entry point  
-package.json        # Project metadata and dependencies  
-tailwind.config.ts  # Tailwind config  
-vite.config.ts      # Vite config  
-tsconfig.json       # TypeScript config  
+public/ # static assets (images, etc.)  
+src/ # React components, pages, styles  
+index.html # Vite entry point  
+package.json # Project metadata and dependencies  
+tailwind.config.ts # Tailwind config  
+vite.config.ts # Vite config  
+tsconfig.json # TypeScript config  
 
 
 ## Local Development
