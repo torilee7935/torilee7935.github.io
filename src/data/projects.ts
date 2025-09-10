@@ -8,8 +8,15 @@ export type Project = {
 
 export const projectsData = [
   {
+    title: "Online Portfolio Website",
+    stack: ["React", "Typescript", "HTML", "CSS", "Vite", "GitHub Pages"],
+    description: "My own personal portfolio website, showcasing my projects and skills. With a few little easter eggs, let me know if you can find them!",
+    link: "https://github.com/torilee7935/torilee7935.github.io",
+    imageUrl: "/images/portfolio.png",
+  },
+  {
     title: "Hacker News Website",
-    stack: ["Python", "Flask", "Auth0", "SQL", "NGINX", "Gunicorn"],
+    stack: ["Python", "Flask", "Hosting", "Linode", "Ubuntu", "Auth0", "SQL", "NGINX", "Gunicorn"],
     description: "News website powered by the Hacker News API. Secure Auth0 sign-in lets users like/dislike stories, while an admin panel supports editing and deleting posts.",
     link: "https://github.com/torilee7935/python",
     imageUrl: "/images/newsApp.png",
