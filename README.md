@@ -1,9 +1,6 @@
 # Tori Lee — Online Portfolio
 
-[![Website](https://img.shields.io/badge/Website-tori--lee.com-2ea44f?style=flat-square)](https://tori-lee.com/)
-[![Deploy](https://github.com/torilee7935/torilee7935.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/torilee7935/torilee7935.github.io/actions)
-
-Welcome to my personal portfolio site — a clean, whimsical space that blends my background in computer science, technical account management, and creative projects. It’s where I showcase my work, highlight projects, and share a bit of personality.
+Welcome to my personal portfolio site, where I showcase my work and highlight projects.
 
 ## Features
 - Responsive design that works on desktop and mobile
