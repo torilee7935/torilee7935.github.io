@@ -12,10 +12,10 @@ export const EXPERIENCES: Experience[] = [
     company: "Kinetix Solutions",
     dates: "May 2025 – Present",
     bullets: [
-      "• Serve as a liaison for clients, ensuring smooth IT support delivery and strong relationships",
-      "• Create documentation and lead training to speed up onboarding and improve team efficiency",
-      "• Configure and refine Halo PSA — roles, permissions, knowledge base, and workflows — to boost performance across client environments",
-      "• Analyze support trends to uncover automation opportunities and implement solutions that streamline operations"
+      "• Partner with clients pre- and post-sale to ensure smooth onboarding and long-term adoption",
+      "• Build trusted relationships with executives to identify expansion opportunities and ensure renewals",
+      "• Configure, customize, and train clients on Halo PSA, ensuring workflows, roles, and permissions are optimized",
+      "• Designing and implementing automation workflows in Halo PSA to streamline client operations"
     ]
   },
   {
