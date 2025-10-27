@@ -8,9 +8,14 @@ export type Experience = {
 
 export const EXPERIENCES: Experience[] = [
   {
+    title: "Customer Success Associate",
+    company: "ScriptRunner @ The Adaptavist Group",
+    dates: "October 2025 - Present",
+  },
+  {
     title: "Technical Account Manager",
     company: "Kinetix Solutions",
-    dates: "May 2025 – Present",
+    dates: "May 2025 – October 2025",
     bullets: [
       "• Partner with clients pre- and post-sale to ensure smooth onboarding and long-term adoption",
       "• Build trusted relationships with executives to identify expansion opportunities and ensure renewals",
